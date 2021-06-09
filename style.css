@@ -74,17 +74,15 @@ body {
     line-height:2;
 }
 
-.expenseCard{
+.historyCard{
     display: flex;
     background-color:white;
     margin:10px 0;
     padding:10px 7px;
+    position:relative;
 }
 
-
-.incomeCard{
-    display: flex;
-    background-color:white;
-    margin:10px 0;
-    padding:10px 7px;
+.historyCardAmount{
+    position:absolute;
+    right:20px;
 }

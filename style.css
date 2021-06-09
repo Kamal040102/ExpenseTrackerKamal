@@ -41,6 +41,7 @@ body {
     padding: 10px 20px;
     max-width: 100%;
     margin: 20px 0;
+    box-shadow: 5px, black;
 }
 
 .income {
@@ -65,10 +66,25 @@ body {
 }
 
 .history{
-    
+
 }
 
 .history h3{
     border-bottom: 1px solid black;
     line-height:2;
+}
+
+.expenseCard{
+    display: flex;
+    background-color:white;
+    margin:10px 0;
+    padding:10px 7px;
+}
+
+
+.incomeCard{
+    display: flex;
+    background-color:white;
+    margin:10px 0;
+    padding:10px 7px;
 }
